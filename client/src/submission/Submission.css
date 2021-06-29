@@ -1,0 +1,4 @@
+.submission_commentTextArea{
+    min-height: 150px !important;
+    resize: none;
+}

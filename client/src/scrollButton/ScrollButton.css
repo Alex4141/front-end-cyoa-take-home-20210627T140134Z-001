@@ -1,0 +1,15 @@
+.scrollButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+.scrollButton__btn {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    font-weight: bold;
+    font-size:1.3rem;
+}

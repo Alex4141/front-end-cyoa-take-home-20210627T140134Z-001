@@ -1,0 +1,23 @@
+.commentList {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 990px) {
+    .commentList__div:empty {
+        border: none !important;
+    }   
+}
+
+@media (min-width: 991px){
+    .commentList {
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .commentList__div {
+        overflow-y: auto;
+        max-height: 80vh;
+        min-height: 80vh;
+        overflow-x: hidden;
+    }
+}
